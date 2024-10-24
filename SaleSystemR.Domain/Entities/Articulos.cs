@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 namespace SaleSystemR.Domain.Entities
 {
     [Table("Articulos", Schema = "dbo")]
-    public sealed class Articulo
+    public sealed class Articulos
     {
         [Key]
         public int ArticuloID { get; set; }

@@ -2,7 +2,7 @@
 
 namespace SaleSystemR.Domain.Repositories
 {
-    internal interface IBaseRepository<TEntity> where TEntity : class
+    public interface IBaseRepository<TEntity> where TEntity : class
     {
         Task<OperationResult> Save(TEntity entity);
         Task<OperationResult> Update(TEntity entity);

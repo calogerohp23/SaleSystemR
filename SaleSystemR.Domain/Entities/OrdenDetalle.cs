@@ -9,6 +9,6 @@ namespace SaleSystemR.Domain.Entities
         [Key]
         public int OrdenDetalleID { get; set; }
         public int ArticuloID { get; set; }
-        public int CompaniaID {  get; set; }
+        public int OrdenID { get; set; }
     }
 }

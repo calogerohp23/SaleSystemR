@@ -9,7 +9,7 @@ namespace SaleSystemR.Domain.Entities
         [Key]
         public int OrdenID { get; set; }
         public string? Nombre { get; set; }
-        public string? Encargado { get; set; }
+        public int EmpleadoID { get; set; }
         public decimal? ValorTotal { get; set; }
         public string? Estado { get; set; }
 
