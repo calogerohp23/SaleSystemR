@@ -12,7 +12,7 @@ namespace SaleSystemR.Persistence.Repositories
         private readonly ILogger<ArticuloRepository> _logger;
         public ArticuloRepository(SaleSystemRContext saleSystemRContext, ILogger<ArticuloRepository> logger) : base(saleSystemRContext)
         {
-            _context = saleSystemRContext;
+            _saleSytemContext = saleSystemRContext;
             _logger = logger;
         }
 

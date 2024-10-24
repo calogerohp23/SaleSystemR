@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SaleSystemR.Persistence.Repositories
+﻿namespace SaleSystemR.Persistence.Repositories
 {
-    internal class EmpleadoRepository
+    public class EmpleadoRepository
     {
     }
 }
